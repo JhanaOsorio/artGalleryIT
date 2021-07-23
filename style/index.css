@@ -141,6 +141,9 @@ a.text-section {
   font-weight: Bold;
 }
 
+h2{
+  font-weight: 100;
+}
 a.text-section:hover {
   background: #f2f4fa;
 }
