@@ -1,5 +1,4 @@
 (function () {
-  console.log("side bar");
   let imageIndex = 0;
   let artImages = [];
   let sideBarImages = [];
