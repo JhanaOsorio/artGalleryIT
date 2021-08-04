@@ -92,7 +92,7 @@
   filter: saturate(0.6);
 }
 
-.map-wrapper { 
+.map-wrapper {
   display: flex;
   margin: 20px auto;
   border-top: 1px solid #575656;;
@@ -140,6 +140,9 @@ a.text-section {
   font-weight: Bold;
 }
 
+h2{
+  font-weight: 100;
+}
 a.text-section:hover {
   background: #f2f4fa;
 }
