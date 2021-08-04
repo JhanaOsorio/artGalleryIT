@@ -2,9 +2,9 @@
     border: 2px solid black;
     width: 900px;
     max-width: 90%;
-    max-width: 90%;
-    margin: 100px auto;
+    margin: 100px auto 50px;
     background-color: rgba(235, 236, 213, 0.383);
+    padding: 10px;
 }
 
 
@@ -13,6 +13,8 @@
 }
 
 .page-section{
+    padding: 10px;
     background-color: rgb(241, 231, 88);
     min-height: 100vh;
+    box-sizing: border-box;
 }
