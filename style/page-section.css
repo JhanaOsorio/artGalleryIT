@@ -1,9 +1,8 @@
 .page-content{
-    border: 2px solid black;
     width: 900px;
     max-width: 90%;
     margin: 100px auto 50px;
-    background-color: rgba(235, 236, 213, 0.383);
+    background-color: white;
     padding: 10px;
 }
 
@@ -14,7 +13,7 @@
 
 .page-section{
     padding: 10px;
-    background-color: rgb(241, 231, 88);
+    background-color: white;
     min-height: 100vh;
     box-sizing: border-box;
 }

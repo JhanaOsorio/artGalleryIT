@@ -44,16 +44,8 @@
   position: relative;
   z-index: 3;
   font-family: 'Oxygen', sans-serif;
-  padding: 3rem 1rem;
+  padding: 4rem 1rem;
   box-sizing: border-box;
-}
-
-.sb-container__brand {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  font-size: 1.5rem;
-  color: #FFF;
 }
 
 .sb-container__logo {
@@ -95,7 +87,8 @@
 .map-wrapper {
   display: flex;
   margin: 20px auto;
-  border-top: 1px solid #575656;;
+  border-top: 1px solid #575656;
+  ;
 }
 
 .main-nav {
@@ -108,7 +101,7 @@
   width: fit-content;
   color: #FFF;
   margin-bottom: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   cursor: pointer;
   text-shadow: 1px 1px 1px black;
 }
@@ -140,9 +133,10 @@ a.text-section {
   font-weight: Bold;
 }
 
-h2{
+h2 {
   font-weight: 100;
 }
+
 a.text-section:hover {
   background: #f2f4fa;
 }
