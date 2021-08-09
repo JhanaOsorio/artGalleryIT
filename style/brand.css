@@ -18,7 +18,7 @@
     width: max-content;
     opacity: 0;
     transform: translateY(-50%);
-    transition: 1s opacity, 0.5s left;
+    transition: 0.3s opacity, 0.5s left;
 }
 
 .brand:hover .brand__text-hidden {
