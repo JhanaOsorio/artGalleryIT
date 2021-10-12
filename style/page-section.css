@@ -20,17 +20,18 @@
 .service-description{
     display: flex;
     width: 100%;
+    flex-direction: row;
 }
 
 .service-description__picture-container{
     position: relative;
     flex-shrink: 0;
     width: 650px;
-    max-width: 50%;
+    max-width: 80%;
     padding: 10px;
     background: white;
     box-sizing: border-box;
-    box-shadow: 10px 10px 20px #ccc1c1;
+    box-shadow: 25px 25px 25px #ccc1c1;
 }
 
 .service-description__picture{
@@ -48,10 +49,17 @@
     border-bottom: 1px solid black;
     z-index: 1;
     top: 50%;
-    left: 75%;
+    left: 75%;   
 }
 
 .service-description__text-container{
     width: auto;
     flex-grow: 1;
+    padding: 15rem;
 }
+
+@media only screen and (min-width: 1005px) {
+    .service-description__text-container {
+     : lightblue;
+    }
+  }
