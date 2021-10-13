@@ -28,7 +28,7 @@ body{
 .service-description{
     display: flex;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .service-description__picture-container{
@@ -39,7 +39,7 @@ body{
     padding: 10px;
     background: white;
     box-sizing: border-box;
-    box-shadow: 10px 10px 20px #ccc1c1;
+    box-shadow: 25px 25px 25px #ccc1c1;
 }
 
 .service-description__picture{
@@ -57,7 +57,7 @@ body{
     border-bottom: 1px solid black;
     z-index: 1;
     top: 50%;
-    left: 75%;
+    left: 75%;   
 }
 
 .service-description__text-container{
@@ -75,5 +75,3 @@ body{
         flex-direction: row;
     }
 }
-
-  
