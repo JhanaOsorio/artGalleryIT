@@ -1,3 +1,11 @@
+:root{
+    overflow-x: hidden;
+}
+  
+body{
+    overflow-x: hidden;
+}
+
 .page-container{
     margin: 100px auto 50px;
     background-color: white;
@@ -20,13 +28,14 @@
 .service-description{
     display: flex;
     width: 100%;
+    flex-direction: column;
 }
 
 .service-description__picture-container{
     position: relative;
     flex-shrink: 0;
     width: 650px;
-    max-width: 50%;
+    max-width: 80%;
     padding: 10px;
     background: white;
     box-sizing: border-box;
@@ -54,4 +63,17 @@
 .service-description__text-container{
     width: auto;
     flex-grow: 1;
+    padding: 1rem;
 }
+
+@media only screen and (min-width: 566px) {
+    .service-description__picture-container{
+        max-width: 50%;
+    }
+
+    .service-description{
+        flex-direction: row;
+    }
+}
+
+  
