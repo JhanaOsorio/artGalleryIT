@@ -28,10 +28,10 @@ body{
 .service-description{
     display: flex;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.service-description__picture-container{
+.service-description__picture-container {
     position: relative;
     flex-shrink: 0;
     width: 650px;
@@ -40,14 +40,15 @@ body{
     background: white;
     box-sizing: border-box;
     box-shadow: 25px 25px 25px #ccc1c1;
+    height: fit-content;
 }
 
-.service-description__picture{
+.service-description__picture {
     max-width: 100%;
     height: auto;
     position: relative;
-    top: -5%;
-    left: -5%;
+    top: -10px;
+    left: -10px;
 }
 
 .service-description__separator-line{
@@ -63,15 +64,25 @@ body{
 .service-description__text-container{
     width: auto;
     flex-grow: 1;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 @media only screen and (min-width: 566px) {
     .service-description__picture-container{
         max-width: 50%;
     }
+    
+    .service-description__text-container{
+        padding: 0rem 0.5rem 0rem 2.2rem;
+    }
 
     .service-description{
         flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1326px) {
+    .service-description__text-container{
+        padding: 8rem 10rem;
     }
 }
