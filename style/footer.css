@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+}
+
+.footer--element{
+    margin: 1rem;
+}

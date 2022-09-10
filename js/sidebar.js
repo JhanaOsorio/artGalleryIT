@@ -26,6 +26,7 @@
   function changeStaticImageSrc(src) {
     staticImageElement.src = src;
   }
+  
 
   function addActiveClass(sideBarImageElement, index) {
     sideBarImages.forEach(sideBarImage => {
